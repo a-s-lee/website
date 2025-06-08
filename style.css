@@ -1,35 +1,44 @@
 body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     margin: 0;
-    padding: 0;
+    padding: 0;     
 }
 
 .section-one {
     background-color: #1F2937;
-}
-
-.header {
     display: flex;
+    flex-direction: column;
+    gap: 40px;
     align-items: center;
-    justify-content: center;
+    height: 400px;
 }
 
-.right-header {
-    display: flex;
-}
-
-.content {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+.section-one > .header,
+.section-one > .content {
+  width: 100%;              /* allow them to fill the padded section */
+  max-width: 800px;        /* or whatever max width you like */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .left-content {
-    width: 400px;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ul {
+    display: flex; 
+    gap: 16px;    
 }
 
 .section-two {
     text-align: center;
+    height: 400px;
 }
 .container-two {
     display: flex;
