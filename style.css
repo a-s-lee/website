@@ -59,18 +59,37 @@ ul {
 
 .section-three {
     background-color: #E5E7EB;
-}
-
-.container-three {
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    width: 755px;
+}
+
+.quote-from {
+    align-self: flex-end;
+}
+
+.section-four {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-four {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
 }
+
 
 .footer {
     display: flex;
@@ -169,14 +188,25 @@ img {
     margin: 40px; 
     padding: 20px;
     background-color: #3882F6;
-    width: 700px;
+    height: 100px;
+    width: 900px;
     border-radius: 9px;  
 }
 .body-four {
     color: white;
 }
-.button-four {
 
+.title-four {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.text-four {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-four {
     /* Transparent fill so the blue parent shows through */
     background: transparent;
     border: 2px solid #fff;
@@ -184,7 +214,8 @@ img {
     color: #fff;
     font-weight: 700;
     padding: 8px 16px;
-
+    width: 120px;   
+    height: 40px;
   }
   
 
