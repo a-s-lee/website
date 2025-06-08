@@ -1,6 +1,4 @@
 body {
-    display: flex; 
-    flex-direction: column;  
     margin: 0;
     padding: 0;
 }
@@ -8,17 +6,57 @@ body {
 .section-one {
     background-color: #1F2937;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-header {
+    display: flex;
+}
+
+.content {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.left-content {
+    width: 400px;
+}
+
 .section-two {
+    text-align: center;
 }
-.section-three {
-    background-color: #E5E7EB;
-}
-.section-four {
+.container-two {
+    display: flex;
     
 }
 
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-four {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    height: 75px;
 }
 .img-ocean {
     border: none;
@@ -107,12 +145,15 @@ img {
 
 /* Section Four */
 .container-four {
-    /* margin: 40px; */
+    margin: 40px; 
     padding: 20px;
     background-color: #3882F6;
-    border-radius: 8px;  
+    width: 700px;
+    border-radius: 9px;  
 }
-
+.body-four {
+    color: white;
+}
 .button-four {
 
     /* Transparent fill so the blue parent shows through */
@@ -131,5 +172,5 @@ img {
 
 .footer {
     color: white;
-
+    
 }
